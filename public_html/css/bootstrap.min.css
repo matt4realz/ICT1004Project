@@ -7,7 +7,7 @@
 
 body {
     background-color: black;
-    color: red;
+    color: white;
 }
 
 .red {
@@ -44,7 +44,8 @@ nav {
 footer{
     text-align: center;
     padding: 20px;
-    margin: 20px 50px 10px 50px;
+    margin: 50px 50px 10px 50px;
+    
 }
 
 .jumbotron,.p1,h1{
@@ -72,12 +73,40 @@ footer{
 }
 
 footerIndex{
+    text-align:center;
     color: red;
-    display: block;
+    display: inline-block;
     margin-top: 2px;
+    list-style: none;
     
 }
 
 a {
     color:red;
 }
+
+.tabbed{
+    margin: 0% 15% 0% 15%;
+}
+
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+        
+        
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	
+	}
+        
+ul#horizontal-list li {
+		display: inline;
+                margin-right: 20px;
+	}
